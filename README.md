@@ -28,7 +28,7 @@ There isn't an official prescribed order for tackling the problems, though a sub
 
  [x] `single_number`
  [x] `moving_zeroes`
- [] `product_of_array_except_self`
+ [x] `product_of_array_except_self`
  [] `sliding_window_max`
  [] `eating_cookies`
 
