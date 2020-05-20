@@ -2,10 +2,29 @@
 Input: a List of integers where every int except one shows up twice
 Returns: an integer
 '''
-def single_number(arr):
-    # Your code here
+import timeit
 
-    pass
+
+def single_number(arr):
+    start = timeit.default_timer()
+
+    # Your code here
+    # Store an array of double values seen in the loop.
+    # Loop again and check if the value is in this list.
+    # List comprehension to check for duplicated and remove the odd balls.
+    # Can we use sets?
+    dupes = {}
+    for e in arr:
+        if e not in dupes.keys():
+            dupes[e] = 1
+        else:
+            dupes[e] += 1
+
+    for key, value in dupes.items():
+        if value == 1:
+            final = timeit.default_timer() - start
+            print(f"Time: {final:.8f}:")
+            return key
 
 
 if __name__ == '__main__':
