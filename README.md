@@ -29,8 +29,8 @@ There isn't an official prescribed order for tackling the problems, though a sub
  [x] `single_number`
  [x] `moving_zeroes`
  [x] `product_of_array_except_self`
- [] `sliding_window_max`
- [] `eating_cookies`
+ [x] `sliding_window_max`
+ [x] `eating_cookies`
 
 For each problem, `cd` into the directory, read the instructions for the challenge, implement your solution in the skeleton file, then test it using the provided test file.
 

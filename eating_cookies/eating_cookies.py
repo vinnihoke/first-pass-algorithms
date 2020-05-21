@@ -4,7 +4,7 @@ Returns: an integer
 '''
 
 
-def eating_cookies(n):
+def eating_cookies(n, cache=None):
     # Your code here
     if n == 0 or n == 1:
         return 1
